@@ -5,9 +5,11 @@ from .models import CarMake, CarModel
 admin.site.register(CarMake)
 admin.site.register(CarModel)
 
-# CarModelInline class: lets you edit CarModel objects directly on the CarMake admin page, instead of going to a separate screen.
+# CarModelInline class: lets you edit CarModel objects directly on the CarMake admin page, 
+# instead of going to a separate screen.
 
-# CarModelAdmin class: lets you customize how CarModel entries are displayed when you visit the CarModel section of the admin.
+# CarModelAdmin class: lets you customize how CarModel entries are displayed when you visit
+# the CarModel section of the admin.
 
 # CarMakeAdmin class with CarModelInline
 
